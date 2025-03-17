@@ -12,7 +12,7 @@ let inventory = {
 
 app.use(bodyParser.json());
 
-// Health check endpointhhhhh
+// Health check after update 2
 app.get('/health', (req, res) => res.status(200).send('OK'));
 
 
